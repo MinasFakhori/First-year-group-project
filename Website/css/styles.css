@@ -69,11 +69,52 @@ body{
      border-radius: 15px;
      width: 100%;
      height:30em;
-     padding: auto;
  }
  
  p{
      margin-left:  1em;
      margin-right: 1em;
  }
+
+
+
+ 
+
+ /* About us */
+
+ .about_us{
+    position:absolute;
+    margin-top:35em;
+    background-color: rgb(193, 193, 193);
+    border-radius: 15px;
+    width: 100%;
+    height:30em;
+}
+
+ .profile img {
+	width: 100%;
+}
+.profiles {
+	display: flex;
+	flex-wrap: wrap;
+    position:relative;
+
+}
+
+.profile {
+	display: flex;
+}
+
+.profile-content {
+	flex-direction: column;
+	width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+.profile { width: 50% }
+}
+
+@media screen and (min-width: 60em) {
+.profile { width: 25% }
+}
  
