@@ -1,66 +1,81 @@
-/* NAV BAR DONT CHANGE */
+/* NAV BAR */
 
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
 
 body{
-    margin: 0;
-    padding: 0;
-    max-width: 95%;
-    
+    font-family: 'Fredoka', sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255)
 }
 
 
 .navbar{
-    position:fixed;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    z-index: 1;
-    
-}
-
-.menu{
-    position:relative;
-    margin-left: auto;
-    margin-right:auto ;
-    justify-content: center;
     text-align: center;
-    display:flex;
-    list-style: none;
-    
+    padding: auto;
 }
 
-.menu a{
-    margin: 15px;
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 0.4%;
+    color: black;
+}
+
+.navbar a{
     color: black;
     text-decoration: none;
-   justify-content: center;
-  
-  
+}
 
+
+.page{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+
+
+}
+
+.page a{
+    color: aliceblue;
 }
 
 .navbar img{
-    position:absolute;
+    display: inline-flex;
+    float: left;
     margin-top: 1%;
     margin-left: 1%;
 }
 
 
-
-
-
-
 .dyslexia_button{
-    margin-top: 0.7em;
-    margin-right: 1%;
-    margin-bottom: 0.3em;
-    border-radius: 10px;
+    display: inline-flex;
+    float: right;
+    position:relative;
+    margin-top: -3.5%;
+    border-radius: 6px;
+    width: 5%;
+    height: 5vh;
+    text-align: center;
     border-style:none;
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    width: 5%;
-    
+    color: rgb(255, 255, 255);     
+    margin-right: 2%;
+}
+
+.dyslexia_button p{
+    margin: auto;
 }
 
 
@@ -68,37 +83,54 @@ body{
 /* ****************************************************************************************************** */
 
 
-.home{
-    position: absolute;
-     margin-top:4em;
-     background-color: rgb(255, 172, 179);
-     border-radius: 15px;
-     width: 100%;
-     height:30em;
- }
- 
- p{
-     margin-left:  1em;
-     margin-right: 1em;
- }
 
+
+section{
+    align-items: center;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+ h1{
+     padding-top:5% ;
+}
+
+
+/* Each section */
+
+/* Home */
+
+ #home{
+    background-color: rgba(229, 229, 229, 0.451);
+}
+
+
+/* Learning materials */
+
+#learning_materials{
+    background-color: rgb(255, 165, 233);
+}
+
+
+#quiz{
+    background-color: rgb(176, 252, 255);
+}
 
 
  
 
  /* About us */
 
- .about_us{
-    position:absolute;
-    margin-top:35em;
-    background-color: rgb(193, 193, 193);
-    border-radius: 15px;
-    width: 100%;
-    height:30em;
+ #about_us{
+    background-color: rgb(255, 137, 137);
 }
 
  .profile img {
-	width: 100%;
+	width: 70%;
 }
 .profiles {
 	display: flex;
@@ -123,4 +155,20 @@ body{
 @media screen and (min-width: 60em) {
 .profile { width: 25% }
 }
- 
+
+.about_us_writing{
+    padding-bottom: 1%;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+
+
+/* Change this */
+
+img{
+    max-width: 65%;
+}
