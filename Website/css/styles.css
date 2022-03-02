@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 2%;
+    font-family: 'Fredoka', sans-serif;
+  
+}
+
+.wrapper{
+    max-width:95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.banner{
+    position: fixed;
+    width: fit-content;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: right;
+}
+
+
+
+.nav a{
+          text-decoration: none;
+          letter-spacing: 3px;
+          margin: auto;
+          padding: 40px 20px;
+          text-align: center;
+          color: rgb(0, 0, 0);
+      }
+      .nav a:visited{
+        color: white;   
+    }
+  
+      
+      .nav a:hover{
+          background-color: rgb(252, 228, 253);
+          color: rgb(119, 0, 255);
+          border-radius: 5%;
+      }
+  
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
