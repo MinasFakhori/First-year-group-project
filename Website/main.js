@@ -6,7 +6,7 @@ window.addEventListener("scroll", ()=>{
 
     sections.forEach( section => {
         let top = section.offsetTop -100;
-        if(pageYOffset >= top){
+        if(pageYOffset > top){
             current = section.getAttribute("id")
         }  
     })
