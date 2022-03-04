@@ -5,7 +5,7 @@ window.addEventListener("scroll", ()=>{
     let page;
 
     sections.forEach( section => {
-        let top = section.offsetTop -100;
+        let top = section.offsetTop -150;
         if(pageYOffset > top){
             current = section.getAttribute("id")
         }  
@@ -14,7 +14,7 @@ window.addEventListener("scroll", ()=>{
     nav.forEach(li =>{
         li.classList.remove("page");
         if(li.classList.contains(current)){
-            li.classList.add("page")
+            li.classList.add("page");
         }
     })
 })
