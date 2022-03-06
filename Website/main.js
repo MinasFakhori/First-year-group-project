@@ -41,6 +41,17 @@ lmSection3.addEventListener("click", () => {
 });
 
 
+lmSection1.addEventListener('dblclick', (e) => {
+    window.open("https://google.com");
+    });
+
+lmSection2.addEventListener('dblclick', (e) => {
+    window.open("https://google.com");
+    });
+    
+lmSection3.addEventListener('dblclick', (e) => {
+    window.open("https://google.com");
+});    
 
 
 

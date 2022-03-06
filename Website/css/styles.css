@@ -81,8 +81,8 @@ nav{
     margin-right: 2%;
 }
 
-.dyslexia_button p{
-    margin: auto;
+.dyslexia_button{
+    display: inline-block;
 }
 
 
@@ -184,6 +184,7 @@ iframe{
  border-radius: 10px;
  height:80%;
  width: 50%;
+ border: none;
 
 
 }
@@ -265,3 +266,4 @@ iframe{
 img{
     max-width: 65%;
 }
+
