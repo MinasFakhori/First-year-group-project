@@ -1,12 +1,7 @@
-/* NAV BAR */
-
 *{
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
-    
+    padding: 0;  
 }
-
 
 body{
     font-family: 'Fredoka', sans-serif;
@@ -16,12 +11,32 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+h1{
+    padding-top:5% ;
+    text-align: center;
+}
+
+section{
+    align-items: center;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.layout{
+    height: 100%;
+}
+
+
+
+/* NAV BAR */
 nav{
     position: sticky;
     top: 0;
     z-index: 1;
     background-color: rgb(255, 255, 255);
-    
 }
 
 
@@ -50,8 +65,6 @@ nav{
     color: white;
     border-radius: 10px;
     margin-bottom: 0.5%;
-
-
 }
 
 .page a{
@@ -66,10 +79,10 @@ nav{
 }
 
 
+
+
 .dyslexia_button{
-    display: inline-flex;
     float: right;
-    position:relative;
     margin-top: -3.2%;
     border-radius: 6px;
     width: 5%;
@@ -81,141 +94,58 @@ nav{
     margin-right: 2%;
 }
 
-.dyslexia_button{
-    display: inline-block;
-}
-
-
-
-/* ****************************************************************************************************** */
 
 
 
 
-section{
-    align-items: center;
-    border-radius: 15px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 99vh;
-    
-}
 
-
- h1{
-     padding-top:5% ;
-     text-align: center;
-}
-
-
-/* Each section */
 
 /* Home */
-
  #home{
     background-color: rgba(229, 229, 229, 0.451);
 }
 
 
 /* Learning materials */
-
 #learning_materials{
     background-color: rgb(255, 165, 233);
 }
-
-
-#quiz{
-    background-color: rgb(176, 252, 255);
-}
-
-/* Learning materials sections */
 
 #learning_materials_sec1{
     border-radius: 15px;
     background:#a476ff;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    width: 50%;
-    height: 20vh;
-	float: left;
-    margin: 2%;
     border: none;
-
-    
-    
 }
 
 #learning_materials_sec2{
     border-radius: 15px;
-    background:#ff00a2;
+    background:#4fff81;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 20vh;
-	float: left;
-    margin: 2%;
     border: none;
-
-
-    
 }
 
 #learning_materials_sec3{
-    
     border-radius: 15px;
-    background:#52ffbd;
+    background:#ff5efa;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 20vh;
-	float: left;
-    margin: 2%;
     border: none;
-    
 }
 
 
 
 
-iframe{
- margin-top: 2%;
- border-radius: 10px;
- height:80%;
- width: 50%;
- border: none;
+/* Quiz */
 
-
+#quiz{
+    background-color: rgb(176, 252, 255);
 }
 
 
 
-.video-wrapper{
-    height:100%;
-    max-height: 95%;  
-    margin-bottom: 10%;
-}
-
-
-
-  .container{
-      max-width: 90%;
-  }
-
-
-
-.clear{
-    clear: both;
-}
-
-
-
-
-
-
-
- 
 
  /* About us */
 
@@ -225,12 +155,12 @@ iframe{
 
  .profile img {
 	width: 70%;
+   
 }
 .profiles {
 	display: flex;
 	flex-wrap: wrap;
     position:relative;
-
 }
 
 .profile {
@@ -243,12 +173,20 @@ iframe{
 }
 
 @media screen and (min-width: 40em) {
-.profile { width: 50% }
+.profile { width: 50%;
+}
+
 }
 
 @media screen and (min-width: 60em) {
-.profile { width: 25% }
+.profile { 
+    width: 25%;
+     
 }
+}
+
+
+
 
 .about_us_writing{
     padding-bottom: 1%;
@@ -261,9 +199,180 @@ iframe{
 
 
 
-/* Change this */
 
-img{
-    max-width: 65%;
+/* Mobile and tablet*/
+
+@media screen and (max-width: 999px){
+    /* Nav */
+    .dyslexia_button{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    
+    .navbutton {
+        background-color:rgb(0, 0, 0);
+        color: white;
+        padding: 20%;
+        border-radius: 10px;
+        border-style:none;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-bottom: 5%;
+      }
+
+      
+      
+    
+      .mobile_menu{
+        display:inline-block;
+        max-width: 6em;
+      }
+      
+    
+      .menu{
+        display: none;
+        position:relative;
+        width: 9em;
+        background-color:gray;
+        border-radius: 10%;
+        z-index: 1;
+      }
+    
+      .menu a {
+        color: black;
+        padding: 5%;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+      }
+    
+      .menu a:hover {
+          background-color:white;
+          border-radius: 10px;
+        }
+       
+      .mobile_menu:hover .menu {
+        display: block;
+      }
+      
+    
+      .mobile_menu:hover .navbutton {
+        background-color:#333;
+      }
+
+
+
+      /* Layout */
+    
+      .layout{
+          position: relative;
+         width: auto;
+         height: 100%;
+      }
+
+
+
+      #learning_materials{
+          position: relative;
+          display:flex;
+      }
+    .iframe_wrapper{
+        display:none;
+    }
+
+    .lm_container{
+        max-height: 95%;
+        width: 95%;
+    }
+
+    .profile{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    }
+
+
+    #learning_materials_sec1, #learning_materials_sec2, #learning_materials_sec3 {
+        margin-bottom: 2%;
+        padding: 3%;
+        transform: translate(2.5%);
+    }
+    
+    /*************************************** Desktop***************** */
+@media screen and (min-width: 999px){
+    /* Nav */
+    .mobile_menu{
+        display:none ;
+    }
+    
+    /* Section */
+    section{
+        height: 100vh;
+    }
+
+    #learning_materials_sec1{
+        width: 50%;
+        height: 20vh;
+        float: left;
+        margin: 2%;
+    }
+        
+    #learning_materials_sec2{
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 20vh;
+        float: left;
+        margin: 2%;    
+        }
+        
+        #learning_materials_sec3{
+            border-radius: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: 20vh;
+            float: left;
+            margin: 2%;
+            border: none;
+        }
+
+        
+        .learning_materials_sec3 .learning_materials_sec2 .learning_materials_sec3{
+            display: none;
+        }
+        
+        
+        
+        iframe{
+         margin-top: 2%;
+         border-radius: 10px;
+         height:80%;
+         width: 50%;
+         border: none;
+        }
+        
+        
+        
+        .iframe_wrapper{
+            height:100%;
+            max-height: 95%;  
+            margin-bottom: 10%;
+        }
+        
+        .lm_container{
+            max-width: 90%;
+        }
+
+          
+        
 }
-
+        
+    
+    
+    
+    

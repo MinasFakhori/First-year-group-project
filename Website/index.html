@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	
-    <head>
+  <head>
 		<meta charset="utf-8">
 		<title>Cyber securty</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,22 +13,36 @@
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
 	</head>
 
-    <body>
-      <div class="wrapper">
-        <!-- START OF NAV BAR -->
-        <nav>
-          <div class="navbar">
-            <img class = "logo" src="img/BAMM.png" alt="BAMM logo">
-              
-              <ul class = "menu">
-              <li class = "home"><a href="#home">Home</a></li>
-              <li class = "learning_materials"><a href="#learning_materials">Learning Materials</a></li>
-              <li class="quiz"><a href="#quiz">Quiz</a></li>
-              <li class="about_us"><a href="#about_us">About US</a></li>    
-            </ul>
-            <button class = "dyslexia_button">♿︎</button>
-          </div>
-        </nav>
+  <body>
+     
+    <!-- START OF NAV BAR -->
+    <nav>
+      <div class="navbar">
+        <img class = "logo" src="img/BAMM.png" alt="BAMM logo">      
+        <ul class = "menu">
+          <li class = "home"><a href="#home">Home</a></li>
+          <li class = "learning_materials"><a href="#learning_materials">Learning Materials</a></li>
+          <li class="quiz"><a href="#quiz">Quiz</a></li>
+          <li class="about_us"><a href="#about_us">About US</a></li>    
+        </ul>
+        <button class = "dyslexia_button">♿︎</button>
+      </div>
+    </nav>
+
+
+    <!-- Nav button for mobile -->
+    <div class="mobile_menu">
+      <button class="navbutton">Navigation</button>
+        <nav class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#learning_materials">Learning materials</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#about_us">About us</a></li>
+              </ul>
+            </nav>
+        </div>
+        
 
         <!-- Section 1 - HOME -->
         <section id = "home">
@@ -41,12 +55,16 @@
             
             Musk has been criticized for unorthodox and unscientific stances and highly publicized controversial statements. In 2018, he was sued by the US Securities and Exchange Commission (SEC) for falsely tweeting that he had secured funding for a private takeover of Tesla. He settled with the SEC, temporarily stepping down from his chairmanship and agreeing to limitations on his Twitter usage. In 2019, he won a defamation trial brought against him by a British caver who advised in the Tham Luang cave rescue. Musk has also been criticized for spreading misinformation about the COVID-19 pandemic and for his other views on such matters as artificial intelligence, cryptocurrency, and public transport.</p>
         </section>
-
+      </div>
 
         <!-- Section 2 - Learning materials -->
+
+       
         <section id = "learning_materials">
+          <div class="layout">
           <h1>LEARNING MATERIALS</h1>
-          <div class="container">
+          <div class="lm_container">
+
         <button id = "learning_materials_sec1">
           Sec 1 <br><br> Lorem ipsuelit.us, ipsa dignissimos mollitia perspiciatis placeat ea est dolorem optio libero officia assumenda nobis consequatur quae?
         </button>
@@ -61,24 +79,25 @@
       </div>
 
 
-      <div class = "video-wrapper">
+      <div class = "iframe_wrapper">
             		<iframe id = iframe src="https://mf600.brighton.domains/CI453/blank.html"></iframe>             			
 			</div>
 
 
-			<div class="clear"></div>
-      
+		
+    </div>
+  </div>
       </section>
-
+        
 
 
 
         <!-- Section 3 -Quiz -->
-        <div class="clear"></div>
+
         <div class="quiz_cont">
         <section id = "quiz">
           <h1>QUIZ</h1>
-          <img src="img/maxresdefault.jpg" alt="">
+         
         </section>
       </div>
 
@@ -151,6 +170,5 @@
 
         <!-- Keep this at the very bottom of the page -->
         <script src="main.js"></script>
-      </div>
     </body>
 </html>
