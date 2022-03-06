@@ -1,0 +1,28 @@
+*{
+ 
+    padding: 0; 
+}
+
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+img{
+    display: block;
+    max-width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
