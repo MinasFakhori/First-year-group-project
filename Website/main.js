@@ -3,6 +3,7 @@ let nav = document.querySelectorAll("li");
 let lmSection1 = document.getElementById('learning_materials_sec1');
 let lmSection2 = document.getElementById('learning_materials_sec2');
 let lmSection3 = document.getElementById('learning_materials_sec3');
+let screenWidth = window.innerWidth;
 
 
 
@@ -41,7 +42,32 @@ lmSection3.addEventListener("click", () => {
 });
 
 
+lmSection1.addEventListener('dblclick', () => {
+    window.open("https://google.com");
+    });
+
+lmSection2.addEventListener('dblclick', () => {
+    window.open("https://google.com");
+    });
+    
+lmSection3.addEventListener('dblclick', () => {
+    window.open("https://google.com");
+});    
 
 
+
+if (screenWidth < 1000){
+    lmSection1.addEventListener("click", () => {
+        window.open("https://google.com");
+    });
+    
+    lmSection2.addEventListener("click", () => {
+        window.open("https://google.com");
+    });
+    
+    lmSection3.addEventListener("click", () => {
+        window.open("https://google.com");
+    });
+}
 
 
