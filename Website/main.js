@@ -41,15 +41,15 @@ lmSection3.addEventListener("click", () => {
 });
 
 
-lmSection1.addEventListener('dblclick', (e) => {
+lmSection1.addEventListener('dblclick', () => {
     window.open("https://google.com");
     });
 
-lmSection2.addEventListener('dblclick', (e) => {
+lmSection2.addEventListener('dblclick', () => {
     window.open("https://google.com");
     });
     
-lmSection3.addEventListener('dblclick', (e) => {
+lmSection3.addEventListener('dblclick', () => {
     window.open("https://google.com");
 });    
 
