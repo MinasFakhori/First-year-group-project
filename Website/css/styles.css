@@ -36,13 +36,13 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: #faf8f6;
+
 }
 
 
 .navbar{
     text-align: center;
-    padding: auto;
 }
 
 .navbar li{
@@ -102,18 +102,20 @@ nav{
 
 /* Home */
  #home{
-    background-color: rgba(229, 229, 229, 0.451);
+     margin-top: -1.5%;
+    background-color:#e6f0fa;
 }
 
 
 /* Learning materials */
 #learning_materials{
-    background-color: rgb(255, 165, 233);
+    background-color: #f4f1d6;
+   
 }
 
 #learning_materials_sec1{
     border-radius: 15px;
-    background:#a476ff;
+    background:#CCBBFF;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -121,7 +123,7 @@ nav{
 
 #learning_materials_sec2{
     border-radius: 15px;
-    background:#4fff81;
+    background:#FFCCCC;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -129,7 +131,7 @@ nav{
 
 #learning_materials_sec3{
     border-radius: 15px;
-    background:#ff5efa;
+    background:#CCDDDD;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -141,7 +143,7 @@ nav{
 /* Quiz */
 
 #quiz{
-    background-color: rgb(176, 252, 255);
+    background-color: #E9CDD0;
 }
 
 
@@ -150,7 +152,7 @@ nav{
  /* About us */
 
  #about_us{
-    background-color: rgb(255, 137, 137);
+    background-color: #d7ecd9;
 }
 
  .profile img {
