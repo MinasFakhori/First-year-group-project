@@ -42,7 +42,6 @@ nav{
 
 .navbar{
     text-align: center;
-    padding: auto;
 }
 
 .navbar li{
@@ -102,13 +101,15 @@ nav{
 
 /* Home */
  #home{
-    background-color: rgba(229, 229, 229, 0.451);
+     margin-top: -1.5%;
+    background-color:#e6f0fa;
 }
 
 
 /* Learning materials */
 #learning_materials{
-    background-color: rgb(255, 165, 233);
+    background-color: #f4f1d6;
+   
 }
 
 #learning_materials_sec1{
@@ -141,7 +142,7 @@ nav{
 /* Quiz */
 
 #quiz{
-    background-color: rgb(176, 252, 255);
+    background-color: #E9CDD0;
 }
 
 
@@ -150,7 +151,7 @@ nav{
  /* About us */
 
  #about_us{
-    background-color: rgb(255, 137, 137);
+    background-color: #d7ecd9;
 }
 
  .profile img {
