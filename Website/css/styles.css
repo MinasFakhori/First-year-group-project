@@ -36,7 +36,8 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: #faf8f6;
+
 }
 
 
@@ -114,7 +115,7 @@ nav{
 
 #learning_materials_sec1{
     border-radius: 15px;
-    background:#a476ff;
+    background:#CCBBFF;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -122,7 +123,7 @@ nav{
 
 #learning_materials_sec2{
     border-radius: 15px;
-    background:#4fff81;
+    background:#FFCCCC;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -130,7 +131,7 @@ nav{
 
 #learning_materials_sec3{
     border-radius: 15px;
-    background:#ff5efa;
+    background:#CCDDDD;
     margin-left: auto;
     margin-right: auto;
     border: none;
