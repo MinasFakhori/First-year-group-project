@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    padding-top:5% ;
+    text-align: center;
+}
+
+
+
+
+/* NAV BAR */
+nav{
+    position: sticky;
+    top: 0;
+    
+    z-index: 1;
+    background-color: #faf8f6;
+
+}
+
+
+.navbar{
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 0.4%;
+    color: black;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-right: ;
+}
+
+
+.page{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+}
+
+.page a{
+    color: aliceblue;
+}
+
+.home_btn{
+    display: inline-flex;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    border-radius: 5px;
+    text-align: center;
+    border-style:none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);   
+    padding: 0.5%;
+}
+
+.back_btn{
+    display: inline-flex;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    border-radius: 5px;
+    text-align: center;
+    border-style:none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);   
+    padding: 0.5%;
+    
+}
+
+.front_btn{
+    position:static;
+    display: inline-flex;
+    float: right;
+    margin-top: -3%;
+    margin-left: 42%;
+    border-radius: 5px;
+    text-align: center;
+    border-style:none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);   
+    padding: 0.5%;
+    
+}
+
+
+
+
+
+
+.dyslexia_button{
+    position:absolute;
+    display: inline-flex;
+    float: right;
+    margin-top: -3%;
+    margin-left: 36%;
+    border-radius: 5px;
+    text-align: center;
+    border-style:none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);   
+    padding: 0.5%;
+    width: 5%;
+    
+
+    /* 
+    float: right;
+    margin-top: -3.2%;
+    border-radius: 6px;
+    width: 5%;
+    height: 5vh;
+    text-align: center;
+    border-style:none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);     
+    margin-right: 2%; */
+}
+
+
+
+
+
+/* Mobile and tablet*/
+
+@media screen and (max-width: 999px){
+    /* Nav */
+    .dyslexia_button{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    
+    .navbutton {
+        background-color:rgb(0, 0, 0);
+        color: white;
+        padding: 20%;
+        border-radius: 10px;
+        border-style:none;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-bottom: 5%;
+      }
+
+      
+      
+    
+      .mobile_menu{
+        display:inline-block;
+        max-width: 6em;
+      }
+      
+    
+      .menu{
+        display: none;
+        position:relative;
+        width: 9em;
+        background-color:gray;
+        border-radius: 10%;
+        z-index: 1;
+      }
+    
+      .menu a {
+        color: black;
+        padding: 5%;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+      }
+    
+      .menu a:hover {
+          background-color:white;
+          border-radius: 10px;
+        }
+       
+      .mobile_menu:hover .menu {
+        display: block;
+      }
+      
+    
+      .mobile_menu:hover .navbutton {
+        background-color:#333;
+      }
+
+
+
+      /* Layout */
+    
+      .layout{
+          position: relative;
+         width: auto;
+         height: 100%;
+      }
+
+
+
+    
+    }
+
+
+    
+    /*************************************** Desktop***************** */
+@media screen and (min-width: 999px){
+    /* Nav */
+    .mobile_menu{
+        display:none ;
+    }
+    
+    /* Section */
+    section{
+        height: 100vh;
+    }
+
+    #learning_materials_sec1{
+        width: 50%;
+        height: 20vh;
+        float: left;
+        margin: 2%;
+    }
+        
+    #learning_materials_sec2{
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 20vh;
+        float: left;
+        margin: 2%;    
+        }
+        
+        #learning_materials_sec3{
+            border-radius: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: 20vh;
+            float: left;
+            margin: 2%;
+            border: none;
+        }
+
+        
+        .learning_materials_sec3 .learning_materials_sec2 .learning_materials_sec3{
+            display: none;
+        }
+        
+        
+        
+        iframe{
+         margin-top: 2%;
+         border-radius: 10px;
+         height:80%;
+         width: 50%;
+         border: none;
+        }
+        
+        
+        
+        .iframe_wrapper{
+            height:100%;
+            max-height: 95%;  
+            margin-bottom: 10%;
+        }
+        
+        .lm_container{
+            max-width: 90%;
+        }
+
+          
+        
+}
