@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-    background-color: black;
+    background-color: #0B0A07;
     color: aliceblue;
 }
 body::-webkit-scrollbar{
@@ -20,7 +20,7 @@ h1{
 
 img{
     display: block;
-    max-width: 33%;
+    max-width: 31%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;

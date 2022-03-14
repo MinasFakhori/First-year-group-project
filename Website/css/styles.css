@@ -109,7 +109,8 @@ nav{
 
 /* Learning materials */
 #learning_materials{
-    background-color: #CCDDDD;
+    background-color: #0B0A07;
+    color: white;
    
 }
 
@@ -131,7 +132,7 @@ nav{
 
 #learning_materials_sec3{
     border-radius: 15px;
-    background:#ffcaaf;
+    background:#CCDDDD;
     margin-left: auto;
     margin-right: auto;
     border: none;
@@ -152,7 +153,7 @@ nav{
  /* About us */
 
  #about_us{
-    background-color: #d7ecd9;
+    background-color: #bac3e7;
 }
 
  .profile img {
