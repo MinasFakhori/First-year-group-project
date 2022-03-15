@@ -31,6 +31,7 @@ window.addEventListener("scroll", ()=>{
  
 lmSection1.addEventListener("click", () => {
     document.getElementById("iframe").src = "https://mf600.brighton.domains/ci435_assignment/";
+    
 });
 
 lmSection2.addEventListener("click", () => {
