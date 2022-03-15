@@ -7,14 +7,19 @@ let screenWidth = window.innerWidth;
 
 
 
+
+
 window.addEventListener("scroll", ()=>{
     let page;
 
     sections.forEach( section => {
-        let top = section.offsetTop -150;
+        let top = section.offsetTop -100;
         if(scrollY > top){
             current = section.getAttribute("id");
-        }  
+        }
+        if (top == home){
+            pageEL.style.color = "blue";
+        }
     })
 
     nav.forEach(li =>{
@@ -22,10 +27,17 @@ window.addEventListener("scroll", ()=>{
         if(li.classList.contains(current)){
             li.classList.add("page");
         }
+
+       
     })
 
    
+
+   
 })
+
+
+
 
 
  
