@@ -13,12 +13,9 @@ window.addEventListener("scroll", ()=>{
     let page;
 
     sections.forEach( section => {
-        let top = section.offsetTop -100;
+        let top = section.offsetTop -150;
         if(scrollY > top){
             current = section.getAttribute("id");
-        }
-        if (top == home){
-            pageEL.style.color = "blue";
         }
     })
 
