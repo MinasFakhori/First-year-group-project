@@ -70,5 +70,3 @@ if (screenWidth < 1000){
         window.open("https://google.com");
     });
 }
-
-
