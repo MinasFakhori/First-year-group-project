@@ -85,7 +85,6 @@ nav{
 /* Home */
  #home{
      margin-top: -1.5%;
-    background-color:#e6f0fa;
 }
 
 
@@ -164,13 +163,13 @@ nav{
 
 /* Learning materials */
 #learning_materials{
-    background-color: rgba(165, 165, 165, 0.342);
+    background-color:#e6f0fa;
    
 }
 
 #learning_materials_sec1{
     border-radius: 15px;
-    background:#e0c0c0d8;
+    background:#ff6e61cc;
     margin-left: auto;
     margin-right: auto;
     border-style:none;
@@ -178,7 +177,7 @@ nav{
 
 #learning_materials_sec2{
     border-radius: 15px;
-    background:#afd1c5;
+    background:#dd85cdef;
     margin-left: auto;
     margin-right: auto;
     border-style:none;
