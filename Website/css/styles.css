@@ -93,30 +93,99 @@ nav{
 }
 
 
+
+.img-robot {
+  
+    border-radius: 15px;
+    }
+    
+    
+      .scroll-down {
+        height: 50px;
+        width: 30px;
+        border: 2px solid black;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+        margin-top: 3%;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      .scroll-down::before,
+      .scroll-down::after {
+        content: "";
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        height: 10px;
+        width: 10px;
+        transform: translate(-50%, -100%) rotate(45deg);
+        border: 2px solid black;
+        border-top: transparent;
+        border-left: transparent;
+        animation: scroll-down 1s ease-in-out infinite;
+      }
+      .scroll-down::before {
+        top: 30%;
+        animation-delay: 0.3s;
+      }
+      
+      @keyframes scroll-down {
+        0% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        60% {
+          opacity: 1;
+        }
+        100% {
+          top: 90%;
+          opacity: 0;
+        }
+      }
+    
+    
+      .img-robot{
+    
+        border-radius:10px;
+        border-color:rgb(207, 206, 206);
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        min-width: 250px;
+        width: 35%;
+        margin-top: 2%;  
+      }
+
+
 /* Learning materials */
 #learning_materials{
-    background-color: #0B0A07;
-    color: white;
+    background-color: rgba(165, 165, 165, 0.342);
    
 }
 
 #learning_materials_sec1{
     border-radius: 15px;
-    background:#CCBBFF;
+    background:#e0c0c0d8;
     margin-left: auto;
     margin-right: auto;
+    border-style:none;
 }
 
 #learning_materials_sec2{
     border-radius: 15px;
-    background:#FFCCCC;
+    background:#afd1c5;
     margin-left: auto;
     margin-right: auto;
+    border-style:none;
 }
 
 #learning_materials_sec3{
     border-radius: 15px;
-    background:#CCDDDD;
+    background:#cfd3f6;
     margin-left: auto;
     margin-right: auto;
 }
@@ -127,7 +196,7 @@ nav{
 /* Quiz */
 
 #quiz{
-    background-color: #E9CDD0;
+    background-color: #FFB0B0;
 }
 
 
@@ -136,7 +205,7 @@ nav{
  /* About us */
 
  #about_us{
-    background-color: #bac3e7;
+    background-color: #f0f0f0;
 }
 
  .profile img {
@@ -356,7 +425,7 @@ nav{
         iframe{
          margin-top: 2%;
          border-radius: 10px;
-         height:80%;
+         height:78%;
          width: 50%;
          border: none;
         }
@@ -367,6 +436,7 @@ nav{
             height:100%;
             max-height: 95%;  
             margin-bottom: 10%;
+            
         }
         
         .lm_container{
@@ -381,71 +451,15 @@ nav{
 
 
 
-.img-robot {
-  
-border-radius: 15px;
+
+
+
+
+  @media screen and (max-width: 250px){
+    body{
+        display: none;
+    }
 }
-
-
-  .scroll-down {
-    height: 50px;
-    width: 30px;
-    border: 2px solid black;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1%;
-    margin-top: 3%;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  .scroll-down::before,
-  .scroll-down::after {
-    content: "";
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    height: 10px;
-    width: 10px;
-    transform: translate(-50%, -100%) rotate(45deg);
-    border: 2px solid black;
-    border-top: transparent;
-    border-left: transparent;
-    animation: scroll-down 1s ease-in-out infinite;
-  }
-  .scroll-down::before {
-    top: 30%;
-    animation-delay: 0.3s;
-  }
-  
-  @keyframes scroll-down {
-    0% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 1;
-    }
-    60% {
-      opacity: 1;
-    }
-    100% {
-      top: 90%;
-      opacity: 0;
-    }
-  }
-
-
-  .img-robot{
-
-    border-radius:10px;
-    border-color:rgb(207, 206, 206);
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    min-width: 250px;
-    width: 35%;
-    margin-top: 2%;  
-  }
         
     
     

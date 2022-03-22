@@ -59,7 +59,7 @@ nav{
 
 .home_btn, .back_btn{
     float: left;
-    margin-top: 0.5%;
+    margin-top: 1%;
     margin-left: 1%;   
 }
 
@@ -73,83 +73,41 @@ nav{
 
 .dyslexia_button , .next_btn{
  float: right;
- margin-top: 0.5%;
+ margin-top: 1%;
  margin-right: 1%;   
+ justify-content: center;
+ 
 }
 
-button{
 
+.page{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+}
+
+.page a{
+    color: aliceblue;
+}
+
+
+button{
     top:0;
     border-radius: 6px;
-    width: 3%;
+    width: 4em;
     height: 2em;
     text-align: center;
     border-style:none;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);   
-
 }
 
 
-@media screen and (max-width: 999px){
-    /* Nav */
-    .dyslexia_button{
-        display: none;
-    }
-    .navbar{
-        display: none;
-    }
-    
-    .navbutton {
-        background-color:rgb(0, 0, 0);
-        color: white;
-        padding: 20%;
-        border-radius: 10px;
-        border-style:none;
-        margin-top: 5%;
-        margin-left: 2%;
-        margin-bottom: 5%;
-      }
-
-      
-      
-    
-      .mobile_menu{
-        display:inline-block;
-        max-width: 6em;
-      }
-      
-    
-      .menu{
-        display: none;
-        position:relative;
-        width: 9em;
-        background-color:gray;
-        border-radius: 10%;
-        z-index: 1;
-      }
-    
-      .menu a {
-        color: black;
-        padding: 5%;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-      }
-    
-      .menu a:hover {
-          background-color:white;
-          border-radius: 10px;
-        }
-       
-      .mobile_menu:hover .menu {
-        display: block;
-      }
-      
-    
-      .mobile_menu:hover .navbutton {
-        background-color:#333;
-      }
 
 
+@media screen and (max-width: 250px){
+    body{
+        display: none;
     }
+}
