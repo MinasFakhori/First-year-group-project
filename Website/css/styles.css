@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
+    font-size: 1.25em;
 }
 
 body::-webkit-scrollbar{
@@ -109,7 +110,7 @@ nav{
 
 /* Learning materials */
 #learning_materials{
-    background-color: #f4f1d6;
+    background-color: #4A7C59;
    
 }
 
