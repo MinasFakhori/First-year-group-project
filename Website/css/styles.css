@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
+
 }
 
 body::-webkit-scrollbar{
@@ -209,7 +210,7 @@ nav{
 }
 
  .profile img {
-	width: 70%;
+	width: px;
    
 }
 .profiles {
@@ -459,6 +460,12 @@ nav{
     body{
         display: none;
     }
+}
+
+
+.minas{
+    background:linear-gradient(#dedede, #f0f0f0) ;
+    border-radius: 12px;
 }
         
     
