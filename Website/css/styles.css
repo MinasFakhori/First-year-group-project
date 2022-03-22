@@ -38,8 +38,7 @@ nav{
     position: sticky;
     top: 0;
     background-color: #faf8f6;
-    
-
+    z-index:1;
 }
 
 
@@ -188,6 +187,7 @@ nav{
     background:#cfd3f6;
     margin-left: auto;
     margin-right: auto;
+    border-style:none;
 }
 
 
@@ -355,6 +355,10 @@ nav{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .divider{
+        display: none;
+    }
     
 
 
@@ -462,8 +466,47 @@ nav{
     background:linear-gradient(#dedede, #f0f0f0) ;
     border-radius: 12px;
 }
-        
     
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+
+hr{
+    margin-bottom: 0.5%;
+    list-style: none;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(114, 114, 114, 0.15);
+}
+
+.footer li{
+    margin-bottom: 2%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+    
+
+.footer li a{
+   text-decoration: none;
+   color: black;
+}
+
+.footer_text{
+    color: rgb(110, 109, 109);
+}
+
+.divider{
+    color: rgba(114, 114, 114, 0.795);
+}
     
     
     
