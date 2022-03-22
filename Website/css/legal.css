@@ -1,0 +1,29 @@
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-size:1.10em;
+}
+
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.container{
+    background-color: rgba(209, 205, 251, 0.315);
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+
