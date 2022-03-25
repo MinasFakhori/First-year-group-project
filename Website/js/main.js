@@ -57,7 +57,7 @@ lmSection3.addEventListener('dblclick', () => {
 
 
 
-if (screenWidth < 1000){
+if (screenWidth < 900){
     lmSection1.addEventListener("click", () => {
         window.open("https://google.com");
     });
