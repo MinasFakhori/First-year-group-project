@@ -297,6 +297,10 @@ nav{
     
     }
 
+    .emaillink {
+	font-size: 0.75em;
+    }
+
 
     #learning_materials_sec1, #learning_materials_sec2, #learning_materials_sec3 {
         margin-bottom: 2%;

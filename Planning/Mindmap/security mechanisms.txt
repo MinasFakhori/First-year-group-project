@@ -1,8 +1,0 @@
-https://www.ibm.com/docs/en/ibm-mq/7.5?topic=overview-concepts-mechanisms
-
-https://www.geeksforgeeks.org/types-of-security-mechanism/
-
-https://www.synopsys.com/glossary/what-is-cyber-security.html
-
-https://www.ciscopress.com/articles/article.asp?p=1626588&seqNum=2
-
