@@ -84,6 +84,7 @@ nav{
 /* Home */
  #home{
      margin-top: -1.5%;
+     background-color:#e6f0fa;
 }
 
 
@@ -162,7 +163,7 @@ nav{
 
 /* Learning materials */
 #learning_materials{
-    background-color:#e6f0fa;
+    background-color: rgba(212, 212, 212, 0.219);
    
 }
 
@@ -205,7 +206,7 @@ nav{
  /* About us */
 
  #about_us{
-    background-color: #f0f0f0;
+    background-color: #cfcfcf7c;
 }
 
 .profiles {
@@ -250,10 +251,57 @@ nav{
 
 
 
+/* Footer */
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+
+hr{
+    margin-bottom: 0.5%;
+    list-style: none;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(114, 114, 114, 0.15);
+}
+
+.footer li{
+    margin-bottom: 2%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+    
+
+.footer li a{
+   text-decoration: none;
+   color: black;
+}
+
+.footer_text{
+    color: rgb(110, 109, 109);
+}
+
+.divider{
+    color: rgba(114, 114, 114, 0.795);
+}
+    
+    
+    
+
+
+
 
 /* Mobile and tablet*/
 
-@media screen and (max-width: 999px){
+@media screen and (max-width: 900px){
     /* Nav */
     .dyslexia_button{
         display: none;
@@ -366,19 +414,21 @@ nav{
 
   
 
-    
+    .lm_container  button{
+        margin-bottom: 2%;
+        margin-top: 2%;
+        padding: 10%;
+        transform: translate(2.5%);
+
+    }
    
 
 
-    #learning_materials_sec1, #learning_materials_sec2, #learning_materials_sec3 {
-        margin-bottom: 2%;
-        padding: 3%;
-        transform: translate(2.5%);
-    }
+  
 }
     
     /*************************************** Desktop***************** */
-@media screen and (min-width: 999px){
+@media screen and (min-width: 900px){
     /* Nav */
     .mobile_menu{
         display:none ;
@@ -468,47 +518,4 @@ nav{
     background:linear-gradient(#dedede, #f0f0f0) ;
     border-radius: 12px;
 }
-    
-.footer{
-    display:flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 38%;
-}
-
-hr{
-    margin-bottom: 0.5%;
-    list-style: none;
-    width: 38%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(114, 114, 114, 0.15);
-}
-
-.footer li{
-    margin-bottom: 2%;
-    padding: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
-}
-    
-
-.footer li a{
-   text-decoration: none;
-   color: black;
-}
-
-.footer_text{
-    color: rgb(110, 109, 109);
-}
-
-.divider{
-    color: rgba(114, 114, 114, 0.795);
-}
-    
-    
     
