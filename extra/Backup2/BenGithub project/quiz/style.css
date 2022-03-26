@@ -1,0 +1,100 @@
+/*************
+GLOBAL STYLING
+**************/
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/********
+QUIZ PAGE
+*********/
+.container{
+    grid-template-columns: 1fr;/*defines it as 1 column for mobile*/
+    grid-template-rows: 0.4fr 3.8fr;
+    grid-template-areas: 
+    "header"
+    "content";
+}
+
+/************************
+HEADER/NAVIGATION STYLING
+*************************/
+.header{
+    grid-area: header;
+    background-color: aquamarine;
+    overflow:hidden;
+    height:auto;
+}
+.header h1{
+    float:left;
+    padding: 0.75em;
+    text-align: center;
+    margin-left:1em;
+}
+.header a{
+    float:right;
+    text-align: center;
+    padding:3em 1em;
+    text-decoration: none;
+}
+
+.header a:hover {/*A simple hover effect for the navigation, change the colours as u like*/
+    background-color: green;
+    color: black;
+}
+  
+.header a.active {
+    background-color: blue;
+    color: white;
+}
+
+/**************
+CONTENT STYLING
+***************/
+
+.content{
+    grid-area: content;
+    background-color: darkkhaki;
+    
+}
+#quizimg{
+    float:right;
+    max-width: 50%;
+    height: auto;
+    
+  }
+.content p{
+    margin:auto;
+    float:left;
+    max-width: 50%;
+    text-align: center;
+    background-color: brown;
+    font-size: large;
+    
+}
+.content p button{
+    margin:1em;
+    padding:1em;
+}
+
+/***********
+QUIZ STYLING 
+************/
+.quiz-container{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lime;
+}
+.question-container{
+    background-color: brown;
+}

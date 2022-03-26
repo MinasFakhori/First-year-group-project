@@ -199,6 +199,42 @@ nav{
 #quiz{
     background-color: #ffb0b067;
 }
+    .prof_img{
+        background:linear-gradient(#dedede, #f0f0f0) ;
+        border-radius: 12px;
+        width: 80%;
+        margin-top: 1%;
+    
+    }    
+    
+    
+    
+    #quizimg{
+        float:right;
+        max-width: 50%;
+        margin-right: 1%;
+        border-radius: 10px;
+      }
+    
+    
+    .content p{
+        float:left;
+        max-width: 50%;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .content p button{
+        margin:1em;
+        padding:1em;
+    }
+
+    .content button{
+        border-radius: 10px;
+        border: none;
+    }
+    
+    
+
 
 
 
@@ -247,6 +283,11 @@ nav{
     padding-left: 2%;
     padding-right: 2%;
 
+}
+
+.emaillink {
+	font-size: 0.75em;
+    
 }
 
 
@@ -371,6 +412,10 @@ hr{
 
 
       #learning_materials{
+        height: 97vh;
+      }
+
+      #quiz{
         height: 97vh;
       }
 
@@ -514,8 +559,3 @@ hr{
 }
 
 
-.minas{
-    background:linear-gradient(#dedede, #f0f0f0) ;
-    border-radius: 12px;
-}
-    
