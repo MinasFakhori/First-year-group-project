@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	
+  <head>
+		<meta charset="utf-8">
+		<title>Cyber security</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href="css/normalize.css">
+        <link rel = "stylesheet" href = "login.css">
+        <link rel="icon" href="img/BAMM.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+  <body>
+    <h1>Login to view answers</h1>
+    <div class="help">
+      <button class = "help_button">Help</button> 
+        <nav class="dropdown">
+          <ul>
+            <li>Username: student</li>
+            <li>Password: password</li>
+          </ul>
+        </nav>
+          
+      </div>
+
+    <div class = "layout_desktop">
+    <div class = "layout_mobile">
+      <form id = "form">
+        <label for="username">Username</label>
+        <input  type="text"  id="username" />
+       
+        <label for="password">Password</label>
+        <input  type="password"   id="password" />
+        </form>
+        <p class = contact_message></p>
+        <button class ="submit" onclick="btn()"> Login</button>
+        <p class = "wrong"></p>
+    </div>
+    </div>
+
+   
+     <!-- Side image on desktop  -->
+ 
+    <img class ="img_side" src="img.jpg" alt="Image of a lock">
+
+
+        
+    <footer>
+      <hr>
+      <ul class = "footer">
+        <li class = "footer_text">Copyright © 2022 BAMM.</li>
+        <li><a href="">Refrences</a></li>
+        <li class="divider">|</li>
+        <li><a href="legal.html">Legal</a></li>
+        <li class="divider">|</li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </footer>
+
+
+        <!-- Keep this at the very bottom of the page -->
+      <script src="login.js"></script>
+    </body>
+</html>
