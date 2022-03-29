@@ -15,17 +15,44 @@
 
   <body>
      <h1>Login to view answers</h1>
+     <div class="mobile_menu">
+     <button class = "navbutton">Help</button> 
+            <nav class="menu">
+              <ul>
+                <li>Username: student</li>
+                <li>Password: password</li>
+                </ul>
+                </nav>
+          
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      <div class = "layout_desktop">
     <div class = "layout_mobile">
      <form id = "form">
 
        <label for="username">Username</label>
-       <input  type="text"  id="username" required />
+       <input  type="text"  id="username" />
        
        <label for="password">Password</label>
-       <input  type="password"   id="password" required />
+       <input  type="password"   id="password" />
        </form>
+       <p class = contact_message></p>
        <button class ="submit" onclick="btn()"> Login</button>
        <p class = "wrong"></p>
      </div>

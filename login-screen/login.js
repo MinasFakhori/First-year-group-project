@@ -6,7 +6,7 @@ let password = document.getElementById("password");
 let count = 0;
 
 function contact(){
-    window.open("https://google.com");
+    window.open("https://mf600.brighton.domains/ci435_assignment/contact.html" , "_parent");
 }
 
 
@@ -17,12 +17,12 @@ function btn(){
         let message = document.querySelector(".wrong").innerHTML = "Wrong username or password! Try again";
         count++
     }
-    if (count == 3){
+    if (count == 5){
         username.style.display = "none";
         password.style.display = "none";
         let message = document.querySelector(".wrong").innerHTML = "You had 5 attemps you can't sign in";
         let help = document.querySelector(".submit").onclick = contact();
-        let help1 = document.querySelector(".submit").innerHTML = "contact us"
+        let help1 = document.querySelector(".submit").innerHTML = "Contact us"
     }
 }
 
