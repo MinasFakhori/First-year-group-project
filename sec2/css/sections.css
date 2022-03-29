@@ -24,12 +24,6 @@ h2
    text-align: center; 
 }
 
-h3
-{
-   padding-top: 5%;
-   text-align: center; 
-}
-
 section{
     align-items: center;
     border-radius: 15px;
@@ -47,6 +41,7 @@ nav{
     background-color: #faf8f6;
 
 }
+
 
 .navbar{
     text-align: center;
@@ -79,24 +74,8 @@ nav{
     clear: both;
 }
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.card {
-    display: flex;
-}
 
-.card-content {
-    flex-direction: column;
-    width: 100%;
-    border: 1px solid #b8860b;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 1.25em 1.25em 0.3em 0;
-    padding: 1em;
-}
 
 .dyslexia_button , .next_btn{
  float: right;
@@ -137,12 +116,4 @@ button{
     body{
         display: none;
     }
-}
-
-@media screen and (max-width: 40em) {
-    .card { width: 50%; }
-}
-
-@media screen and (max-width: 60em) {
-    .card { width: 33.33% }
 }
