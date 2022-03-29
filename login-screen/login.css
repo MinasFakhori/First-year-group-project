@@ -101,6 +101,64 @@ label{
 
 /* Help dropdown */
 
+/* Dropdown help button */
+
+
+
+.help_button{
+  background-color:rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+  border-style:none;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  width: 50px;
+  height: 40px;
+}
+
+
+
+
+.help{
+  display:inline-block;
+  position:absolute;
+  top: 0;
+  margin-top: 1.5%;
+  margin-left: 2%;
+}
+
+
+.dropdown{
+  display: none;
+  position:relative;
+  width: 11em;
+  background-color:rgba(209, 205, 251, 0.315);
+  border-radius: 10px;
+  z-index: 1;
+  padding: 1em;
+}
+
+.dropdown a {
+  color: black;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+ 
+.help:hover .dropdown {
+  display: block;
+}
+
+
+
+
+li{
+  list-style: none;
+}
+
 
 
 /* Footer */
@@ -180,18 +238,7 @@ hr{
         margin-left: auto;
         margin-right: auto;
       }
-
-      .mobile_menu{
-          position: relative;
-      }
-
-    
-
-
-   
-
-     
-}
+    }
 /*Tablet****************************************************************************************/
 @media screen and (min-width: 500px) {
     .submit{
@@ -209,6 +256,8 @@ hr{
       margin-bottom:2%;
       max-width: 55%;
     }
+
+   
     
   
 
@@ -247,71 +296,24 @@ hr{
 
 }
 
+@media screen and (max-width: 600px){
+  .help{
+      position: relative;
+  }
+
+}
 
 
 
 
-  @media screen and (max-width: 250px){
-    body{
-        display: none;
+
+
+@media screen and (max-width: 250px){
+  body{
+      display: none;
     }
 }
 
-/* ******************************* */
 
 
-
-.navbutton {
-    background-color:rgb(0, 0, 0);
-    color: white;
-    border-radius: 10px;
-    border-style:none;
-    margin-top: 5%;
-    margin-left: 2%;
-    margin-bottom: 5%;
-    width: 50px;
-    height: 40px;
-  }
-
-  
-  
-
-  .mobile_menu{
-    display:inline-block;
-    position:absolute;
-    top: 0;
-    margin-top: 1.5%;
-    margin-left: 2%;
-  }
-  
-
-  .menu{
-    display: none;
-    position:relative;
-    width: 11em;
-    background-color:rgba(209, 205, 251, 0.315);
-    border-radius: 10px;
-    z-index: 1;
-    padding: 1em;
-  }
-
-  .menu a {
-    color: black;
-    padding: 5%;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-  }
-
-   
-  .mobile_menu:hover .menu {
-    display: block;
-  }
-
-
-
-
-  li{
-    list-style: none;
-  }
-  
+ 
