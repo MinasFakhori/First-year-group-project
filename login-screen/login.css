@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: rgba(251, 251, 251, 0.733);
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    padding-top:2% ;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+footer{
+    float: none;
+    clear: both;
+}
+
+input, label {
+    display:block;
+  }
+
+
+#form{
+    margin-top: 10%;
+
+}
+
+
+
+.wrong{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+        
+        
+.submit {
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    color: #eee;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3%;
+}
+  
+
+
+input{
+    border-radius: 3px;
+    border-style:none;
+    margin-bottom:2%;
+    max-width: 95%;
+    width: 85%;
+    height: 25px;
+}
+  
+   
+label{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+          
+}
+  
+#username{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#password{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Footer */
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+
+hr{
+    margin-bottom: 0.5%;
+    list-style: none;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(114, 114, 114, 0.15);
+}
+
+.footer li{
+    margin-bottom: 2%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+    
+
+.footer li a{
+   text-decoration: none;
+   color: black;
+}
+
+.footer_text{
+    color: rgb(110, 109, 109);
+}
+
+.divider{
+    color: rgba(114, 114, 114, 0.795);
+}
+    
+    
+    
+
+
+
+
+/* Mobile and tablet*/
+
+@media screen and (max-width: 999px){
+    /* Nav */
+    .dyslexia_button{
+        display: none;
+    }
+
+
+    .divider{
+        display: none;
+    }
+
+  
+    .img_side{
+      display: none;
+    }
+    
+  
+    .layout_mobile{
+      background-color: rgba(209, 205, 251, 0.315);
+        border-radius: 20px;
+        box-sizing: border-box;
+        height: auto;
+        padding: 15px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+   
+
+     
+}
+/*Tablet****************************************************************************************/
+@media screen and (min-width: 500px) {
+    .submit{
+      float: none;
+      width: 20%;
+      margin-left: 40%;
+      margin-right: 40%;
+      border: none;
+    }
+
+    input{
+      margin-right: 6%;
+      border-radius: 3px;
+      border-style:none;
+      margin-bottom:2%;
+      max-width: 55%;
+    }
+    
+  
+
+   
+
+}
+
+
+/*Desktop******************************************************* */
+  @media screen and (min-width: 1000px) {
+
+    .layout_desktop{
+      border-radius: 20px;
+      box-sizing: border-box;
+      height: 20em;
+      padding: 15px;
+      width: 40%;
+      background-color: rgba(209, 205, 251, 0.733);
+      margin-top: 7.5%;
+      display: block;
+      float:left;
+      margin-left: 3%;
+      margin-bottom: 2%;
+      }
+
+  
+  .img_side{
+    float:right;
+    margin-right: 3%;  
+    margin-top: 7%; 
+    border-radius:10px; 
+    margin-bottom: 5%;    
+}
+
+
+
+}
+
+
+
+
+
+  @media screen and (max-width: 250px){
+    body{
+        display: none;
+    }
+}
+
+
