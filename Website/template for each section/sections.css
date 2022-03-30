@@ -18,6 +18,7 @@ h1{
     text-align: center;
 }
 
+
 section{
     align-items: center;
     border-radius: 15px;
@@ -32,10 +33,10 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #faf8f6;
+    height: 8vh;
+    width: 100%;
 
 }
-
 
 .navbar{
     text-align: center;
@@ -67,8 +68,6 @@ nav{
     float:none;
     clear: both;
 }
-
-
 
 
 .dyslexia_button , .next_btn{
@@ -103,6 +102,10 @@ button{
     color: rgb(255, 255, 255);   
 }
 
+
+
+
+/* Footer */
 .footer{
     display:flex;
     flex-wrap: wrap;
@@ -143,7 +146,10 @@ hr{
 .divider{
     color: rgba(114, 114, 114, 0.795);
 }
-    
+
+
+
+
 
 
 
