@@ -160,6 +160,8 @@ nav{
         margin-top: 2%;  
       }
 
+      
+
 
 /* Learning materials */
 #learning_materials{
@@ -421,6 +423,25 @@ hr{
 
 
 
+
+      /* Scroll bar */
+
+
+      
+      .scroll-down{
+        margin-top: 5%;
+    }
+
+    .img-robot{
+        margin-top: 10%;
+        width: 70%
+    }
+
+    h2{
+        margin-top: 3%;
+    }
+
+
       /* Layout */
     
       .layout{
@@ -428,8 +449,6 @@ hr{
          width: auto;
          height: 100%;
       }
-
-
 
       #learning_materials{
           position: relative;
@@ -454,11 +473,6 @@ hr{
     }
 
 
-
-    
-
-  
-
     .lm_container  button{
         margin-bottom: 2%;
         margin-top: 2%;
@@ -471,9 +485,27 @@ hr{
 
   
 }
-    
+
+
+
+/*****************************Phone only*************************************** */
+@media screen and (max-width: 550px){
+    .scroll-down{
+        position:sticky;
+        margin-top: 30%;
+    }
+
+    .img-robot{
+        margin-top: 20%;
+    }
+
+    h2{
+        margin-top: 5%;
+    }
+
+}
     /*************************************** Desktop***************** */
-@media screen and (min-width: 900px){
+@media screen and (min-width: 900px) and (orientation: landscape){
     /* Nav */
     .mobile_menu{
         display:none ;
