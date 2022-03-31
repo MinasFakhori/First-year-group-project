@@ -10,6 +10,10 @@ body{
 
 }
 
+.warning{
+  display:none;
+}
+
 body::-webkit-scrollbar{
     display: none;
 }
@@ -34,7 +38,7 @@ input, label {
 
 
 #form{
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 
@@ -45,6 +49,8 @@ input, label {
     color: red;
     font-weight: bold;
     text-align: center;
+
+  
 }
 
         
@@ -292,6 +298,21 @@ hr{
     margin-bottom: 5%;    
 }
 
+@-moz-document url-prefix() {
+  body{
+    margin: auto;
+  }
+
+  
+
+  .help_button{
+    margin-top: 10px;
+    margin-left:35em;
+ 
+  }
+}
+
+
 
 
 }
@@ -302,9 +323,6 @@ hr{
   }
 
 }
-
-
-
 
 
 

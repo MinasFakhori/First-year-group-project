@@ -30,7 +30,11 @@ function btn(){
 }
 
 
+let isChromium = window.chrome;
 
+if (isChromium == true){
+    alert("Use chrome for the best experience");
+}
 
 
 
