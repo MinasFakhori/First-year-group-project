@@ -429,12 +429,12 @@ hr{
 
       
       .scroll-down{
-        margin-top: 5%;
+        margin-top: 2%;
     }
 
     .img-robot{
-        margin-top: 8%;
-        width: 70%
+        margin-top: 5%;
+        width: 40%
     }
 
     h2{
@@ -480,6 +480,11 @@ hr{
         transform: translate(2.5%);
 
     }
+
+    #learning_materials_sec1, #learning_materials_sec2 ,#learning_materials_sec3{
+       
+        padding: 4%;
+    }
    
 
 
@@ -492,7 +497,7 @@ hr{
 @media screen and (max-width: 550px){
     .scroll-down{
         position:sticky;
-        margin-top: 30%;
+        margin-top: 10%;
     }
 
     .img-robot{
@@ -501,6 +506,10 @@ hr{
 
     h2{
         margin-top: 5%;
+    }
+
+    #learning_materials h1{
+        margin-bottom: 5%;
     }
 
 }
