@@ -70,3 +70,10 @@ if (screenWidth < 900){
         window.open("https://google.com");
     });
 }
+
+
+let isChromium = window.chrome;
+
+if (isChromium == true){
+    alert("Use chrome for the best experience");
+}
