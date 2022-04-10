@@ -213,17 +213,19 @@ nav{
     
     #quizimg{
         float:right;
-        max-width: 50%;
-        margin-right: 1%;
+        max-width: 40%;
+        margin-right: 2%;
         border-radius: 10px;
+        margin-top: 6%;
+        min-width: 250px;
       }
     
     
     .content p{
         float:left;
-        max-width: 50%;
+        max-width: 40%;
         margin-left: 2%;
-        margin-top: 5%;
+        margin-top: 6%;
     }
     .content p button{
         margin:1em;
@@ -234,7 +236,26 @@ nav{
         border-radius: 10px;
         border: none;
     }
+
+    @media screen and (max-width: 900px){
+        
+
+       .quiz_p{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    #quizimg{
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+     
     
+    }
+    }
     
 
 
@@ -377,24 +398,19 @@ hr{
         display: none;
         position:relative;
         width: 9em;
-        background-color:gray;
+        background-color:rgb(0, 0, 0);
         border-radius: 10%;
         z-index: 1;
       }
     
       .menu a {
-        color: black;
+        color: rgb(255, 255, 255);
         padding: 5%;
         text-align: center;
         text-decoration: none;
         display: block;
       }
-    
-      .menu a:hover {
-          background-color:white;
-          border-radius: 10px;
-        }
-       
+           
       .mobile_menu:hover .menu {
         display: block;
       }
@@ -403,6 +419,8 @@ hr{
       .mobile_menu:hover .navbutton {
         background-color:#333;
       }
+
+  
 
 
 
@@ -424,6 +442,8 @@ hr{
 
 
 
+
+
       /* Scroll bar */
 
 
@@ -439,6 +459,10 @@ hr{
 
     h2{
         margin-top: 3%;
+    }
+
+    h1{
+        margin-top:5%;
     }
 
 
@@ -461,6 +485,12 @@ hr{
     .lm_container{
         max-height: 95%;
         width: 95%;
+        margin-bottom: 5%; 
+       
+    }
+
+    #learning_materials_sec1 {
+        margin-top: 1.1em;
     }
 
     .profile{
@@ -496,20 +526,40 @@ hr{
 /*****************************Phone only*************************************** */
 @media screen and (max-width: 550px){
     .scroll-down{
-        position:sticky;
+        position:absolute;
         margin-top: 10%;
+        left: 25%;
+        right: 25%;
+        bottom:4%;
     }
 
     .img-robot{
-        margin-top: 20%;
+        position:relative;
+        margin-top: 12%;
+        min-width: 250px;
+        width: 70%;
+    }
+
+    .home_div{
+        padding-top: 2em;
     }
 
     h2{
-        margin-top: 5%;
+        margin-top: 4%;
     }
 
     #learning_materials h1{
         margin-bottom: 5%;
+    }
+
+    h1{
+        margin-top: 7%;
+    }
+
+    .layout{
+        padding-top: 15%;
+        padding-bottom: 10%;
+        margin: auto;
     }
 
 }
