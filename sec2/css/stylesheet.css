@@ -18,36 +18,50 @@ h1{
     text-align: center;
 }
 
-h2
-{
-   padding-top: 5%;
-   text-align: center; 
+h2{
+    padding-top:5% ;
+    text-align: center;
 }
 
-h3
-{
-   padding-top: 5%;
-   text-align: center; 
+h4{
+    padding-top: 5% ;
+    text-align: center;
+}
+
+.content {
+	text-align: left;
+}
+
+.card {
+	margin: 10px;
 }
 
 section{
     align-items: center;
     border-radius: 15px;
-    align-items: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 2%;
 }
 
+.card img {
+    float: right;
+    width: 33%;
+    max-width: 640px;
+}
+
+.clear {
+    clear: both;
+}
 
 nav{
     position: sticky;
     top: 0;
     z-index: 1;
-    height: 8vh;
-    width: 100%;
+    background-color: #faf8f6;
 
 }
+
 
 .navbar{
     text-align: center;
@@ -79,6 +93,8 @@ nav{
     float:none;
     clear: both;
 }
+
+
 
 
 .dyslexia_button , .next_btn{
@@ -113,27 +129,6 @@ button{
     color: rgb(255, 255, 255);   
 }
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card {
-    display: flex;
-}
-
-.card-content {
-    flex-direction: column;
-    width: 100%;
-    border: 1px solid #b8860b;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 1.25em 1.25em 0.3em 0;
-    padding: 1em;
-}
-
-
-/* Footer */
 .footer{
     display:flex;
     flex-wrap: wrap;
@@ -174,10 +169,7 @@ hr{
 .divider{
     color: rgba(114, 114, 114, 0.795);
 }
-
-
-
-
+    
 
 
 
@@ -185,12 +177,4 @@ hr{
     body{
         display: none;
     }
-}
-
-@media screen and (max-width: 40em) {
-    .card { width: 50%; }
-}
-
-@media screen and (max-width: 60em) {
-    .card { width: 33.33% }
 }
