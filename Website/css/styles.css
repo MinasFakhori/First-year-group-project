@@ -524,7 +524,7 @@ hr{
 
 
 /*****************************Phone only*************************************** */
-@media screen and (max-width: 550px){
+@media screen and (max-width: 630px){
     .scroll-down{
         position:absolute;
         margin-top: 10%;
