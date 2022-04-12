@@ -60,6 +60,7 @@ function changeColour(){
         dropdown.style.display = "none";
         isClicked = false;
     }else{
+        colourBtn.innerHTML = "Colour"
         body.style.backgroundColor = "#FFFFFF";
         colour = false;
         dropdown.style.display = "none";
@@ -71,13 +72,13 @@ function changeColour(){
 function changeZoom(){
     if( zoom == false){
         body.style.fontSize = "1.5em";
-        zoomBtn.innerHTML = "Normal Font";
+        zoomBtn.innerHTML = "Normal Zoom";
         zoom = true;
         dropdown.style.display = "none";
         isClicked = false;
     }else{
         body.style.fontSize = "1em";
-        zoomBtn.innerHTML = "Font";
+        zoomBtn.innerHTML = "Zoom";
         zoom = false;
         dropdown.style.display = "none";
         isClicked = false;
