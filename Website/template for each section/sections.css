@@ -14,7 +14,8 @@ body::-webkit-scrollbar{
 }
 
 h1{
-    padding-top:5% ;
+    padd
+    done the disabing-top:5% ;
     text-align: center;
 }
 
@@ -213,7 +214,7 @@ hr{
   
  
   .dropdown button:hover {
-      background-color: #ddd;
+      background-color: rgb(200, 200, 200);
       color: #000000;
       border-radius: 3px;
     }
