@@ -14,8 +14,7 @@ body::-webkit-scrollbar{
 }
 
 h1{
-    padd
-    done the disabing-top:5% ;
+    padding-top:5% ;
     text-align: center;
 }
 
@@ -204,9 +203,11 @@ hr{
   .dropdown button {
     color: rgb(255, 255, 255);
     padding: 5px;
+
     width: 100%;
     display: block;
     margin: auto;
+    margin-top: 5%;
     
   }
 
