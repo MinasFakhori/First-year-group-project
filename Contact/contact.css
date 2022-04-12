@@ -73,6 +73,7 @@
     width: 40%;
     padding: 40px;
     background: lightcyan;
+    border-radius: 10px;
 }
 .contactForm h2
 {
