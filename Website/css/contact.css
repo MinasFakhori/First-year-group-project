@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*
-{
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 .contact
 {
@@ -15,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgba(236, 233, 233, 0.938);
     background-size: cover;
 }
 .contact .content h2
@@ -27,7 +26,7 @@
 .contact .content p
 {
     font-weight: 300;
-    color:aliceblue;
+    color:rgb(112, 112, 112);
 }
 .container
 {
@@ -59,7 +58,7 @@
     display: flex;
     margin-Left: 20px;
     font-size: 16px;
-    color: aliceblue;
+    color:rgb(112, 112, 112);
     flex-direction: column;
     font-weight: 300;
 }
@@ -98,6 +97,7 @@
     border-bottom: 2px solid #333;
     outline: none;
     resize: none;
+    border-radius: 3px;
 }
 .contactForm .inputBox span
 {
@@ -116,19 +116,23 @@
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span
 {
-    color:blueviolet;
+    color:rgb(0, 0, 0);
     font-size: 12px;
     transform: translateY(-20px);
 }
 .contactForm .inputBox input[type="submit"]
 {
     width: 100px;
-    background: #00bcd4;
+    background: #000000;
     color:white;
     border: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    border-radius:7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (max-width: 991px)
 {
