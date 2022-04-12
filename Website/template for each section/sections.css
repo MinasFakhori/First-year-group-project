@@ -33,8 +33,9 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
-    height: 8vh;
+    height: 7vh;
     width: 100%;
+    background-color: #ffffff;
 
 }
 
