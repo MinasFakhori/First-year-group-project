@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
+body{
+    font-size:1.10em;
+}
 .contact
 {
     position: relative;
@@ -14,18 +18,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(236, 233, 233, 0.938);
+    background-color: rgba(235, 232, 232, 0.938);
     background-size: cover;
 }
-.contact .content h2
+.contact .content h1
 {
-    font-size: 36px;
-    font-weight: 500;
-    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 .contact .content p
 {
-    font-weight: 300;
+ 
     color:rgb(112, 112, 112);
 }
 .container
@@ -51,20 +56,18 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 22px;
+    
 }
 .container .contactInfo .box .text
 {
     display: flex;
     margin-Left: 20px;
-    font-size: 16px;
     color:rgb(112, 112, 112);
     flex-direction: column;
-    font-weight: 300;
 }
 .container .contactInfo .box .text h3
 {
-    font-weight:500;
+   
     color:black;
 }
 .contactForm
@@ -74,12 +77,7 @@
     background: lightcyan;
     border-radius: 10px;
 }
-.contactForm h2
-{
-    font-size: 30px;
-    color: black;
-    font-weight: 500;
-}
+
 .contactForm .inputBox
 {
     position: relative;
@@ -91,7 +89,7 @@
 {
     width: 100%;
     padding: 5px 0;
-    font-size: 16px;
+    
     margin: 10px 0;
     border: none;
     border-bottom: 2px solid #333;
@@ -104,7 +102,7 @@
     position:absolute;
     left: 0;
     padding: 5px 0;
-    font-size: 16px;
+   
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
