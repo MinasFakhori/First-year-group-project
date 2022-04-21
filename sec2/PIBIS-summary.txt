@@ -1,0 +1,7 @@
+Privacy Issues in Business Information Systems
+
+What challenges do businesses face when it comes to cyber security? 
+In this section we will examine: the meaning of social engineering, and the dangers it poses to businesses;
+what risk management is, and why it is critical for business security; how security training is implmented
+and how different employees must be educated to safeguard business information; and finally how a company's
+devices are managed to protect privacy.
