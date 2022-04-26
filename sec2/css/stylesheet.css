@@ -24,6 +24,7 @@ h2{
 }
 
 h4{
+    font-size: 1.25em;
     padding-top: 5% ;
     text-align: center;
 }
@@ -36,6 +37,11 @@ h4{
 	margin: 10px;
 }
 
+.card-content {
+	width: 100%;
+	height: 25rem;
+}
+
 section{
     align-items: center;
     border-radius: 15px;
@@ -44,14 +50,30 @@ section{
     margin-bottom: 2%;
 }
 
-.card img {
-    float: right;
+.cardimgl {
     width: 33%;
     max-width: 640px;
+    float: left;
+    padding: 2%;
+}
+
+.cardimgr {
+    width: 33%;
+    max-width: 640px;
+    float: right;
+    padding: 2%;
+}
+
+.cardpl {
+	float: left;
 }
 
 .clear {
     clear: both;
+}
+
+ol li {
+	list-style-type: none;
 }
 
 nav{
@@ -61,7 +83,6 @@ nav{
     background-color: #faf8f6;
 
 }
-
 
 .navbar{
     text-align: center;
@@ -105,6 +126,10 @@ nav{
  
 }
 
+p {
+	text-align: justify;
+	font-size: 1em;
+}
 
 .page{
     background-color: rgb(0, 0, 0);
