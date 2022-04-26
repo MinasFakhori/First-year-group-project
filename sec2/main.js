@@ -45,28 +45,14 @@ function changeColour(){
         dropdown.style.display = "none";
         isClicked = false;
     }else{
-        body.style.backgroundColor = "#FFFFFF";
+        colourBtn.innerHTML = "Colour"
+        body.style.backgroundColor = "white";
         colour = false;
         dropdown.style.display = "none";
         isClicked = false;
     }
 }
 
-function changeColour(){
-    if(colour == false){
-        body.style.backgroundColor = "#A8F29A";
-        colour = true;
-        colourBtn.innerHTML = "Normal Colour"
-        dropdown.style.display = "none";
-        isClicked = false;
-    }else{
-        colourBtn.innerHTML = "Colour"
-        body.style.backgroundColor = "#FFFFFF";
-        colour = false;
-        dropdown.style.display = "none";
-        isClicked = false;
-    }
-}
 
 
 function changeZoom(){

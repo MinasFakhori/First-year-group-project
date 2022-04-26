@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
+    background-color: white;
 }
 
 body::-webkit-scrollbar{
@@ -55,6 +56,11 @@ section{
     max-width: 640px;
     float: left;
     padding: 2%;
+   
+}
+
+img{
+    border-radius: 3em;
 }
 
 .cardimgr {
@@ -62,10 +68,22 @@ section{
     max-width: 640px;
     float: right;
     padding: 2%;
+   
 }
+
 
 .cardpl {
 	float: left;
+    width:60%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.cardpr{
+    float: right;
+    width:60%;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 .clear {
