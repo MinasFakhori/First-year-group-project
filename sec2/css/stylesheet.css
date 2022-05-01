@@ -44,6 +44,13 @@ h4{
 	height: 25rem;
 }
 
+mark {
+	background-color: rgba(255, 0, 0, 0.6);
+	color: rgb(88, 88, 88);
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 2.5px;
+}
 section{
     align-items: center;
     border-radius: 15px;
