@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
+    background-color: #FF9FB2;
 }
 
 body::-webkit-scrollbar{
@@ -35,6 +36,7 @@ h4{
 
 .card {
 	margin: 10px;
+	display: inline-block;
 }
 
 .card-content {
@@ -50,24 +52,22 @@ section{
     margin-bottom: 2%;
 }
 
-.cardimgl {
-    width: 33%;
-    max-width: 640px;
-    float: left;
-    padding: 2%;
-}
 
-.cardimgr {
-    width: 33%;
-    max-width: 640px;
-    float: right;
-    padding: 2%;
-}
 
-.cardpl {
-	float: left;
-}
-
+    .cardimgl {
+	width: 100%;
+	float: none;
+    }
+    .cardimgr {
+	width: 100%;
+	float: none;
+    }
+    .cardpl {
+	float: none;
+    }
+    .cardpr {
+	float: none;
+    }
 .clear {
     clear: both;
 }
@@ -199,11 +199,40 @@ hr{
     
 
 
+@media screen and (min-width: 650px){
+.cardimgl {
+    width: 33%;
+    max-width: 640px;
+    float: left;
+    padding: 2%;
+    border-radius: 10px;
+}
 
+.cardimgr {
+    width: 33%;
+    max-width: 640px;
+    float: right;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.cardpl {
+	float: left;
+	width: 59%;
+	padding: 37.65px;
+}
+
+.cardpr {
+	float: right;
+	width: 59%;
+	padding: 37.65px;
+}
+}
 @media screen and (max-width: 250px){
     body{
         display: none;
     }
+
 }
 
 
