@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-    background-color: white;
+    background-color: #FF9FB2;
 }
 
 body::-webkit-scrollbar{
@@ -36,11 +36,20 @@ h4{
 
 .card {
 	margin: 10px;
+    display: inline-block;
 }
 
 .card-content {
 	width: 100%;
 	height: 25rem;
+}
+
+mark {
+	background-color: rgba(255, 0, 0, 0.6);
+	color: rgb(88, 88, 88);
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 2.5px;
 }
 
 section{
@@ -52,7 +61,7 @@ section{
 }
 
 .cardimgl {
-    width: 33%;
+    width: 30%;
     max-width: 640px;
     float: left;
     padding: 2%;
@@ -64,7 +73,7 @@ img{
 }
 
 .cardimgr {
-    width: 33%;
+    width: 30%;
     max-width: 640px;
     float: right;
     padding: 2%;
@@ -184,12 +193,13 @@ button{
 }
 
 hr{
+    margin-top: 4%;
     margin-bottom: 0.5%;
-    list-style: none;
+    border: 1px solid rgb(0, 0, 0);
     width: 38%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(114, 114, 114, 0.15);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .footer li{
@@ -216,6 +226,40 @@ hr{
 }
     
 
+@media screen and (max-width: 900px){
+    .cardimgl {
+        width: 60%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        min-width: 250px;
+        }
+        .cardimgr {
+        width: 60%;
+        min-width: 250px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        }
+        .cardpl {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        }
+        .cardpr {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        }
+
+}
 
 
 @media screen and (max-width: 250px){
