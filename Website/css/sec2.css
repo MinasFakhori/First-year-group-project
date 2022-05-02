@@ -107,7 +107,7 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1;
-    height: 7vh;
+    height: 8vh;
     width: 100%;
     background-color: #ffffff;
 
@@ -262,7 +262,7 @@ hr{
 }
 
 
-@media screen and (max-width: 250px){
+@media screen and (max-width: 267px){
     body{
         display: none;
     }
