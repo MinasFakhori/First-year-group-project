@@ -106,6 +106,8 @@ ol li {
 nav{
     position: sticky;
     top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     z-index: 1;
     height: 8vh;
     width: 100%;
@@ -262,7 +264,7 @@ hr{
 }
 
 
-@media screen and (max-width: 267px){
+@media screen and (max-width: 300px){
     body{
         display: none;
     }
@@ -305,7 +307,7 @@ hr{
     color: white;
     z-index: 1;
     width: 10%;
-    min-width: 70px;
+    min-width: 100px;
     float: right;
     margin-top: 2%;
     right: 50px;

@@ -58,16 +58,19 @@ function changeColour(){
 function changeZoom(){
     if( zoom == false){
         body.style.fontSize = "1.5em";
+        dropdown.style.minWidth = "350px";
         zoomBtn.innerHTML = "Normal Zoom";
         zoom = true;
         dropdown.style.display = "none";
         isClicked = false;
     }else{
+        dropdown.style.minWidth = "100px";
         body.style.fontSize = "1em";
         zoomBtn.innerHTML = "Zoom";
         zoom = false;
         dropdown.style.display = "none";
         isClicked = false;
+       
     }
 }
   
