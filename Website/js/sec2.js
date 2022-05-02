@@ -46,7 +46,7 @@ function changeColour(){
         isClicked = false;
     }else{
         colourBtn.innerHTML = "Colour"
-        body.style.backgroundColor = "white";
+        body.style.backgroundColor = "#FF9FB2";
         colour = false;
         dropdown.style.display = "none";
         isClicked = false;

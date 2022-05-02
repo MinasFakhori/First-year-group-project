@@ -35,7 +35,7 @@ lmSection1.addEventListener("click", () => {
 });
 
 lmSection2.addEventListener("click", () => {
-    document.getElementById("iframe").src = "https://mf600.brighton.domains/ci435_assignment/tutorial.html";
+    document.getElementById("iframe").src = "Privacy issues in Business Information Systems.html";
 });
 
 lmSection3.addEventListener("click", () => {
@@ -48,7 +48,7 @@ lmSection1.addEventListener('dblclick', () => {
     });
 
 lmSection2.addEventListener('dblclick', () => {
-    window.open("https://google.com");
+    window.open("Privacy issues in Business Information Systems.html");
     });
     
 lmSection3.addEventListener('dblclick', () => {
@@ -63,7 +63,7 @@ if (screenWidth < 900){
     });
     
     lmSection2.addEventListener("click", () => {
-        window.open("https://google.com");
+        window.open("Privacy issues in Business Information Systems.html");
     });
     
     lmSection3.addEventListener("click", () => {
