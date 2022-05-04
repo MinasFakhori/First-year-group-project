@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+		<meta charset="utf-8">
+		<title>Security Mechanisms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link rel="icon" href="img/BAMM.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+  <body>
+
+<!-- START OF NAV BAR -->
+<nav>
+  <div class="navbar">
+    <button class = "back_btn">◄</button>
+    <button class = "home_btn" onclick="window.location.href='index.html'">⌂</button>
+    <button class = "next_btn">►</button>
+
+
+
+    <div class="accessibility">
+      <button onclick="fundropdown()" class="dropbtn">♿︎</button>
+      <div class="dropdown">
+        <button class ="font" onclick="changeFont()">Dyslexia Font</button>
+        <button class ="colour" onclick="changeColour()">Dyslexia colour</button>
+        <button class="zoom" onclick="changeZoom()">Zoom</button>
+
+      </div>
+    </div>
+   
+        
+      
+    
+  </div>
+</nav>
+
+  <main>
+    <h1>Security mechanisms in information systems</h1>
+    <h2>List of mechanisms</h2>
+
+    <div class="content">
+      <ol class="cards">
+        <li class="card">
+          <div class="card-content">
+            <h4>Encipherment</h4>
+            <img class="cardimgr" src="images/encipherment.jpg" alt="Encipherment"/>
+            <p class="cardpl">This is hiding and sealing data which allows it to be more confidential. This is achieved by turning data into a numerical form or applying mathematical calculations and algorithms creating unreadable information. The techniques known to do this are Encipherment and Cryptography. Typically, advanced encryption depends on the algorithm used for Encipherment.
+            </p>
+
+          </div>
+          <div class="clear"></div>
+        </li>
+
+        <li class="card">
+          <div class="card-content">
+            <h4>Access control</h4>
+            <img class="cardimgl" src="images/accesscontrol.jpg" alt="Access control"/>
+            <p class = "cardpr">This mechanism is in place to make sure that data cannot be accessed by people that should not have access. This is achieved by applying passwords, using pins or using firewalls so that hackers cannot breach the system. For example, if someone wanted to access private information they would have to get authorisation through the company by accessing passwords only known to them.
+            </p>
+          </div>
+          <div class="clear"></div>
+        </li>
+
+        <li class="card">
+          <div class="card-content">
+            <h4>Message Digest</h4>
+            <img class="cardimgr" src="images/messagedigest.jpg" alt="Message"/>
+            <p class="cardpl">A fixed size numeric representation of the contents of a message, computed by a hash function. A message digest can be encrypted, forming a digital signature. Hash function must meet two criteria: The hash function must be one way, it must not be possible to reverse the function. Also, it must be computationally infeasible to find two messages that hash to the same digest.
+              A message digest created using a secret symmetric key is known as a Message Authentication Code (MAC), because it can provide assurance that the message has not been modified.
+            </p>
+          </div>
+          <div class="clear"></div>
+        </li>
+
+        <li class="card">
+          <div class="card-content">
+            <h4>Data integrity</h4>
+            <img class="cardimgl" src="images/dataintegrity.jpg" alt="Data integrity"/>
+            <p class="cardpr">Data integrity is important as it needs to be consistently verified. This is a security mechanism because if the data remains consistent it means that the data is reliable and not coming from a malicious source. This is achieved by sending information known to both sending and receiving parties and checked before and after the data has been received.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-content">
+            <h4>Notarisation</h4>
+            <img class="cardimgr" src="images/notarisation2.jpg" alt="Notarisation"/>
+            <p class="cardpr">This security mechanism Is used act as a mediator between the sender and receiver so that information cannot be conflicted. This is typically done by a trusted third party and the mediator is requested to keep record of all requests that are made by the made sender.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-content">
+            <h4>Authorisation exchange</h4>
+            <img class="cardimgl" src="images/handshake.jpg" alt="Handshake"/>
+            <p class="cardpr">This security mechanism is in place to make sure that the correct parties are allowed to access information but only if the identity is known in communication. This achieved at the TCP/IP layer where a two-way handshake mechanism is in place.</p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <hr>
+  <footer>
+    <ul class = "footer">
+      <li class = "footer_text">Copyright © 2022 BAMM.</li>
+      <li><a href="references.html">References</a></li>
+      <li class="divider">|</li>
+      <li><a href="legal.html">Legal</a></li>
+      <li class="divider">|</li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </footer>
+<!-- Keep this at the very bottom of the page -->
+    <script src="js/sec2.js"></script>
+    </body>
+</html>
