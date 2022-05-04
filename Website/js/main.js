@@ -30,7 +30,7 @@ window.addEventListener("scroll", ()=>{
 
  
 lmSection1.addEventListener("click", () => {
-    document.getElementById("iframe").src = "https://mf600.brighton.domains/ci435_assignment/";
+    document.getElementById("iframe").src = "sec1.html";
     
 });
 
@@ -44,7 +44,7 @@ lmSection3.addEventListener("click", () => {
 
 
 lmSection1.addEventListener('dblclick', () => {
-    window.open("https://google.com");
+    window.open("sec1.html");
     });
 
 lmSection2.addEventListener('dblclick', () => {
@@ -59,7 +59,7 @@ lmSection3.addEventListener('dblclick', () => {
 
 if (screenWidth < 900){
     lmSection1.addEventListener("click", () => {
-        window.open("https://google.com");
+        window.open("sec1.html");
     });
     
     lmSection2.addEventListener("click", () => {
