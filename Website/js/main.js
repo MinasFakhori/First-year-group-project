@@ -39,7 +39,7 @@ lmSection2.addEventListener("click", () => {
 });
 
 lmSection3.addEventListener("click", () => {
-    document.getElementById("iframe").src = "https://minas.tk/git-and-github";
+    document.getElementById("iframe").src = "sec3.html";
 });
 
 
@@ -52,7 +52,7 @@ lmSection2.addEventListener('dblclick', () => {
     });
     
 lmSection3.addEventListener('dblclick', () => {
-    window.open("https://google.com");
+    window.open("sec3.html");
 });    
 
 
@@ -67,7 +67,7 @@ if (screenWidth < 900){
     });
     
     lmSection3.addEventListener("click", () => {
-        window.open("https://google.com");
+        window.open("sec3.html");
     });
 }
 
