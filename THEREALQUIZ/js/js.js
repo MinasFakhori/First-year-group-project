@@ -5,6 +5,7 @@
  let shuffledQuestions, currentQuestionIndex, seconds = 20;
  var interval;//store timer values
 
+
  /*Question Container assigned a variable*/
 const questionContainerElement = document.getElementById('question-container');
 
@@ -48,7 +49,8 @@ Assigns a variable to element ID 'next-btn' and also adds an event listener
 which will execute code on click of the start button */
 const nextButton = document.getElementById('next-btn')
 nextButton.addEventListener('click', () => {
-  currentQuestionIndex++/* */
+  
+  currentQuestionIndex++;/* */
   setNextQuestion()
 })
 
@@ -72,6 +74,7 @@ function showScore(){
 
 /*Set Next Question Function i.e. what happens when you click next*/
 function setNextQuestion() {
+ 
   resetState()/*runs resetState function*/
   showQuestion(shuffledQuestions[currentQuestionIndex])
   /*showQuestion function takes the shuffled question and the current index*/
@@ -84,24 +87,30 @@ function showQuestion(question) {
     button.innerText = answer.text/*innertext of the button becomes the answer text*/
     button.classList.add('btn')/*assigns the button variable to the 'btn' class */
     if (answer.correct) {
-      button.dataset.correct = answer.correct
+      button.dataset.correct = answer.correct;
+     
     }
     button.addEventListener('click', selectAnswer)/*Event listener for when selecting an answer, executes selectAnswer function*/
     answerButtonsElement.appendChild(button)/*appends the answerbuttonselement with button child 
     i.e. adds the answers to the bottom of the 4 original answer button classes, a resetState function will
     be used to remove the original 4 html answer buttons*/
+    
   })
+  
 }
 
 /*Select Answer Function, i.e. when clicking an answer*/
 function selectAnswer(e) {/*Takes the answer button click event from above in as a parameter */
+
   const selectedButton = e.target/*assigns a variable to the selected click event using e.target*/
   const correct = selectedButton.dataset.correct/*checks if the answer is correct*/
   processResults(correct);/*IF correct call on process results function */
   setStatusClass(document.body, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
+    button.disabled = true;
   })
+
   /*Checks if there are any more questions if more then next, if none then restart*/
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')/*un-hides next button once answer selected*/
@@ -116,7 +125,6 @@ function selectAnswer(e) {/*Takes the answer button click event from above in as
 
 /*FUNCTION to update score if answer is correct */
 function processResults(isCorrect) {
-  
   if (!isCorrect) {
     return;
   }
@@ -135,9 +143,10 @@ function processResults(isCorrect) {
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
-    element.classList.add('correct')
+    element.classList.add('correct');
+    
   } else {
-    element.classList.add('wrong')
+    element.classList.add('wrong');
   }
 }
 /*FUNCTION that REVERTS background/button colour to neutral when new question is selected*/
