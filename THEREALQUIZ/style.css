@@ -53,10 +53,7 @@ grid-template-columns: repeat(2, auto);/*2 columns and auto width to take up as 
 gap: 10px;/*a gap between answers*/
 margin: 20px 0;/*a gap between answers and next/restart buttons*/
 }
-/*Score Container Styling*/
-#score-container{
- 
-}
+
 /*Answer Button Styling*/
 .btn {
 --color: var(--color-neutral);/*sets default colour for buttons to neutral*/
