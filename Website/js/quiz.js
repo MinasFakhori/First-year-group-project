@@ -135,11 +135,6 @@ function selectAnswer(e) {/*Takes the answer button click event from above in as
   }
 }
 
-/*
-if (!(shuffledQuestions.length > currentQuestionIndex + 1) && (startButton.click)){
-  alert("yess");
-}
-*/
 
 
 /*FUNCTION to update score if answer is correct */

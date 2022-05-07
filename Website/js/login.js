@@ -8,13 +8,13 @@ let count = 5;
 
 
 function contact(){
-    window.open("https://mf600.brighton.domains/ci435_assignment/contact.html" , "_parent");
+    window.open("contact.html" , "_parent");
 }
 
 
 function btn(){
     if(username.value == "student" && password.value == "password"){
-        window.open("https://google.com" , "_parent");
+        window.open("ans.html" , "_parent");
     }else{
         let attemps = count - 1;
         let message = document.querySelector(".wrong").innerHTML = "Wrong username or password! Try again, you have " + attemps + " attempts left";
