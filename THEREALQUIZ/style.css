@@ -17,8 +17,14 @@ h1{
   text-align: center;
   color: rgb(255, 255, 255);
 }
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
   
 body {
+    font-family: 'Fredoka', sans-serif;
     --color: var(--color-neutral);/*default color when no answer selected*/
     padding: 0;
     margin: 0;
@@ -101,5 +107,11 @@ align-items: center;
 /*.hide settings for question container and next button*/ 
 .hide {
 display: none;
+}
+
+@media screen and (max-width: 290px){
+  body{
+      display: none;
+  }
 }
 
