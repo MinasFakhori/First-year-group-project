@@ -5,6 +5,9 @@
  let shuffledQuestions, currentQuestionIndex, seconds = 20;
  var interval;//store timer values
 
+const h1 = document.querySelector("h1");
+const h2 = document.querySelector("h2");
+
 
  /*Question Container assigned a variable*/
 const questionContainerElement = document.getElementById('question-container');
@@ -35,6 +38,8 @@ const startButton = document.getElementById('start-btn')
 startButton.addEventListener('click', startGame)
 function startGame() {/*Start Game Function, i.e. what happens on first click*/ 
   startButton.classList.add('hide')/*Hides the start button when clicked*/
+  h1.innerHTML = "Question 1";
+  h2.style.display = "none";
   shuffledQuestions = questions.sort(() => Math.random() - .5)
 /*Randomises the questions array using sort and math random - math.random gives
 a value between 0-1 so taking .5 away gives a 50/50 chance shuffling the questions*/
@@ -49,13 +54,16 @@ Assigns a variable to element ID 'next-btn' and also adds an event listener
 which will execute code on click of the start button */
 const nextButton = document.getElementById('next-btn')
 nextButton.addEventListener('click', () => {
-  
+  let qNum = currentQuestionIndex + 2;
+  h1.innerHTML = "Question " + qNum;
+  //console.log(currentQuestionIndex++);
   currentQuestionIndex++;/* */
   setNextQuestion()
 })
 
 finishButton.addEventListener('click', showScore)
 function showScore(){
+
   alert ("Good job you scored "+ scoreUpElement.textContent);
   /*if(scoreUpElement.textContent >= 8){
     alert ("Great job you got " +scoreUpElement.textContent);
