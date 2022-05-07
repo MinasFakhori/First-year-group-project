@@ -10,6 +10,13 @@ GLOBAL STYLING
 --color-wrong: 0;/*hsl color red when wrong option selected*/
 --color-correct: 145;/*hsl color green when right option selected*/
 }
+
+h1{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
   
 body {
     --color: var(--color-neutral);/*default color when no answer selected*/
@@ -95,3 +102,4 @@ align-items: center;
 .hide {
 display: none;
 }
+
