@@ -2,6 +2,8 @@
  * CONST , VAR   &   LET VARIABLES *
  ***********************************/
 
+
+
  let shuffledQuestions, currentQuestionIndex, seconds = 20;
  var interval;//store timer values
 
@@ -63,19 +65,22 @@ nextButton.addEventListener('click', () => {
 finishButton.addEventListener('click', showScore)
 function showScore(){
 
-  alert ("Good job you scored "+ scoreUpElement.textContent);
+  
+  //alert ("Good job you scored "+ scoreUpElement.textContent);
   /*if(scoreUpElement.textContent >= 8){
-    alert ("Great job you got " +scoreUpElement.textContent);
+    = "Great job you got " +scoreUpElement.textContent;
   }else if(scoreUpElement.textContent >= 6 && scoreUpElement.textContent < 8){
-    alert("Well done you got over 50%! you scored " + scoreUpElement.textContent);
+    = "Well done you got over 50%! you scored " + scoreUpElement.textContent;
   }else if(scoreUpElement.textContent < 5){
-    alert("Unlucky you got less than 50%, try revisiting parts of the site and make sure to check the glossary! you scored "
-          +scoreUpElement.textContent);
+     = "Unlucky you got less than 50%, try revisiting parts of the site and make sure to check the glossary! you scored"
+          +scoreUpElement.textContent;
   }else if(scoreUpElement.textContent == 0){
-    alert("Unfourtunately you got none right, try revisiting parts of the site and make sure to check the glossary! you scored "
-    +scoreUpElement.textContent);
-  }*/
-  finishButton.classList.add('hide')
+    "Unfourtunately you got none right, try revisiting parts of the site and make sure to check the glossary! you scored "
+    +scoreUpElement.textContent;
+  }
+  */
+  h1.innerHTML = "Good job you scored "+ scoreUpElement.textContent;
+  finishButton.classList.add('hide');
 }
 
 
@@ -125,9 +130,16 @@ function selectAnswer(e) {/*Takes the answer button click event from above in as
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
     finishButton.classList.remove('hide')
-    showScore()
+    showScore();
+    
   }
 }
+
+/*
+if (!(shuffledQuestions.length > currentQuestionIndex + 1) && (startButton.click)){
+  alert("yess");
+}
+*/
 
 
 /*FUNCTION to update score if answer is correct */

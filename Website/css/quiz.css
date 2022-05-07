@@ -38,6 +38,10 @@ h2{
   height: 3em;
 }
 
+button{
+  border-radius: 6px;
+}
+
 @media screen and (max-width: 1000px){
   .login{
     position:absolute;
