@@ -56,7 +56,6 @@ const nextButton = document.getElementById('next-btn')
 nextButton.addEventListener('click', () => {
   let qNum = currentQuestionIndex + 2;
   h1.innerHTML = "Question " + qNum;
-  //console.log(currentQuestionIndex++);
   currentQuestionIndex++;/* */
   setNextQuestion()
 })

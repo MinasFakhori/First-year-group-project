@@ -24,6 +24,50 @@ h2{
   color: rgb(255, 255, 255);
 }
 
+.login{
+  position:absolute;
+  top: 0;
+  margin-top: 1%;
+  left:0px;
+  margin-left: 2%;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius:6px;
+  border-style:none ;
+  height: 3em;
+}
+
+@media screen and (max-width: 1000px){
+  .login{
+    position:absolute;
+    top: 0;
+    margin-top: 1%;
+    left: 0;
+    margin-right: 3%;
+    width: 100px;
+    height: 3em;
+  
+  }
+}
+
+
+@media screen and (max-width: 672px){
+  .login{
+    position:absolute;
+    top: 0;
+    margin-top: 3%;
+    left: 0;
+    margin-left: 2%;
+    width: 70px;
+    height: 3em;
+  }
+
+  h1{
+    top: 30px
+  }
+}
+
 
 body::-webkit-scrollbar{
   display: none;
