@@ -1,0 +1,100 @@
+/*************
+GLOBAL STYLING
+**************/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+:root {
+--color-neutral: 200;/*default color when no answer selected*/
+--color-wrong: 0;/*hsl color red when wrong option selected*/
+--color-correct: 145;/*hsl color green when right option selected*/
+}
+  
+body {
+    --color: var(--color-neutral);/*default color when no answer selected*/
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--color), 100%, 20%);/*sets background color to the default '--color' which is neutral
+                                                     100% saturation and 20% lightness */ 
+}
+/*Two classes for right and wrong answer which will adjust background colour accordingly*/  
+body.correct {
+--color: var(--color-correct);
+}
+  
+body.wrong {
+--color: var(--color-wrong);
+}
+/*Progress Bar Styling*/
+#prog{
+  border: 2px solid lime;
+  border-radius: 50px;
+  margin: 1em;
+}
+/*The Question Container styling*/  
+.quiz-container {
+width: 800px;
+max-width: 80%;
+background-color: white;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0 0 100px 50px;/*box shadow 1. x-offset 2. y-offset 3.blur amount 4. spread amount */
+}
+/*Question Grid Styling*/
+.ans-grid {
+display: grid;/*puts the objects(answers) inside the ans-grid element in a grid*/
+grid-template-columns: repeat(2, auto);/*2 columns and auto width to take up as much room as needed*/
+gap: 10px;/*a gap between answers*/
+margin: 20px 0;/*a gap between answers and next/restart buttons*/
+}
+/*Score Container Styling*/
+#score-container{
+ 
+}
+/*Answer Button Styling*/
+.btn {
+--color: var(--color-neutral);/*sets default colour for buttons to neutral*/
+border: 2px solid hsl(var(--color), 100%, 30%);/*border uses --color variable for its colour at a slightly lighter than the background but darker than button*/
+background-color: hsl(var(--color), 100%, 55%);/*background color of buttons lighter than the background of container and button border*/
+border-radius: 5px;
+padding: 5px 10px;
+color: white;
+outline: none;
+}
+/*Answer Button Hover Effect*/
+.btn:hover {
+border-color: white;
+
+}
+/*Answer Button Correct/Wrong Effect*/  
+.btn.correct {
+--color: var(--color-correct);
+color: black;
+}  
+.btn.wrong {
+--color: var(--color-wrong);
+}
+/*Start/Next button styling*/  
+#start-btn,#next-btn,#finish-btn{
+font-size: 1rem;
+font-weight: bold;
+padding: 10px 20px;
+background-color: hsl(var(--color), 100%, 50%);/*sets background color to the default '--color' which is neutral
+                                                     100% saturation and 20% lightness */ 
+}
+/*Start/Next button container*/
+.control{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/*.hide settings for question container and next button*/ 
+.hide {
+display: none;
+}
