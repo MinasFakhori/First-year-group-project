@@ -141,15 +141,15 @@ function selectAnswer(e) {/*Takes the answer button click event from above in as
 function processResults(isCorrect) {
   if (!isCorrect) {
     return;
+    
   }
   const score = parseInt(scoreUpElement.textContent, 10) || 0;
   /*converts/parses string to int to allow 1 to be added to score*/
   if(score < 10){
-  scoreUpElement.textContent = score + 1 +" out of 10"; 
+  scoreUpElement.textContent = score+1 +" out of 10"; 
   }else{
     scoreUpElement.textContent = "You reached the max score"; 
   }
-  
   
 }
 
