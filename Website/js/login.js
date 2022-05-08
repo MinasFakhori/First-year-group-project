@@ -14,7 +14,7 @@ function contact(){
 
 function btn(){
     if(username.value == "student" && password.value == "password"){
-        window.open("ans.html" , "_parent");
+        window.open("quizAns.html" , "_parent");
     }else{
         let attemps = count - 1;
         let message = document.querySelector(".wrong").innerHTML = "Wrong username or password! Try again, you have " + attemps + " attempts left";
