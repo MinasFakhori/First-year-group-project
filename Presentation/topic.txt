@@ -1,0 +1,20 @@
+Ofcom report - children & parents 
+
+According to Ofcom, 83% of 12-15 year olds have their own smartphone
+
+Welcome to our CI453 project presentation, the aim of this project was to create a website 
+to introduce students starting secondary school to the fundamentals of information, computer 
+and network security.
+
+
+Communication
+We considered using various tools/platforms for communication
+eg whatsapp, slack. We decided on discord, trello and github
+Discord allowed us to keep in contact regularly to approve design ideas, and helped make it easy
+to manage the project when delegating tasks. Trello kept us on track with each of the features
+we planned to include, and kept the momentum going as tasks were ticked off. Github would not have
+been the asset that it was had we not been able to communicate effectively. Managing project files
+within a group could not be achieve effectively if we were not all up to date on the project files,
+and pushing our updates to the repository. Without communication, we would have had many conflicts
+on files, we wouldn't have had files uploaded on time, and other members wouldn't have known when
+updated had been pushed.
